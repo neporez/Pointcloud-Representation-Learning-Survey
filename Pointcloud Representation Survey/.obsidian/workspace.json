@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "e77821dbb3536df6",
+    "type": "split",
+    "children": [
+      {
+        "id": "61ddb61d39066bea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d00320035952df47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PointNet++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "df3b726350c19d8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "98bd59a9f74f07a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a93fb800b7cda85c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ef5336706dd09046",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ca173b834afa97a4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "673a985343e671bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "e378b2eb655cb6f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5f7d1bb7b38a96e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PointNet++.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "98aaebd25e8738d7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PointNet++.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "078a69cea3133658",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "34f4ab2b6671ab5f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PointNet++.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "d00320035952df47",
+  "lastOpenFiles": [
+    "Pasted image 20240603130842.png",
+    "Pasted image 20240603110523.png",
+    "Pasted image 20240603101635.png",
+    "PointNet++.md",
+    "Pasted image 20240603101707.png",
+    "Welcome.md"
+  ]
+}
