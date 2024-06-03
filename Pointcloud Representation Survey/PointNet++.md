@@ -39,7 +39,8 @@ PointNet++의 주된 이슈는 두가지이다.
 
 각각의 파티션(분배된 point set)은 유클리디안 거리의 이웃한 point끼리 결정된다. 전체 pointcloud를 파티션으로 분할하기 위해서 FPS(Farthest Point Sampling) 기법을 사용하였다. 고정된 3D convolution과 비교해서 이 기법은 입력 데이터에 receptive field가 결정되기 때문에 더 효율적이고 효과적이다.
 
-![[Pasted image 20240603101707.png]]
+![Pasted image 20240603101707](https://github.com/neporez/Pointcloud-Representation-Learning-Survey/assets/88701811/61bd3bb2-7f50-495f-a5b9-36a02450da9b)
+
 
 그러나, 이웃 점들 간의 거리를 적절히 조절하는 것은 pointcloud의 non-uniformity에 의해서 아직 풀리지 않은 문제이다. 따라서, 본 논문에서는 pointcloud를 Figure 1의 정도의 density를 가진다고 가정하였다.(Velodyne LiDAR와는 다른 느낌인 듯)
 
@@ -63,7 +64,7 @@ PointNet 구조 설명 생략 -> PointNet google docs 참고
 
 #### Hierarchical Point Set Feature Learning
 
-![[Pasted image 20240603110523.png]]
+![Pasted image 20240603110523](https://github.com/neporez/Pointcloud-Representation-Learning-Survey/assets/88701811/416e32b0-5612-4fff-bcaf-867ef632031b)
 
 single max pooling을 사용하여 전체 pointcloud를 결합했던 것과는 달리, PointNet++은 point들을 그룹화하고 계층적으로 점점 더 커지는 Region을 갖도록 나아간다.
 
@@ -95,7 +96,8 @@ $N'$에 속해있는 각각의 centroid는 $K$개의 neighborhoods points와 각
 
 #### Robust Feature Learning under Non-Uniform Sampling Density
 
-![[Pasted image 20240603130842.png]]
+![Pasted image 20240603130842](https://github.com/neporez/Pointcloud-Representation-Learning-Survey/assets/88701811/6e67dfe6-c361-42de-bbdf-9e746b197bd3)
+
 
 일반적인 Pointcloud는 서로 다른 구역에서의 density가 non-uniform하고, 이러한 특성은 pointcloud의 feature learning에 있어서 좋지 않은 영향을 준다.
 
