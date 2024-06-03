@@ -123,7 +123,7 @@ Figure 2를 보면 Segmentation은 distance based interpolation과 각각의 set
 
 interpolation은 k nearest neighbors에 의해 다음과 같이 정해진다.
 
-#### $f^{(j)}(x) = \frac{\sum^k_{i=1}w_i(x)f_i^{(j)}}{\sum^k_{i=1}w_i(x)} \quad where \quad w_i(x) = \frac{1}{d(x,x_i)^p}\, ,j = 1,...,C$
+#### $f^{(j)}(x) = \frac{\sum^{k}_{i=1}w_i(x)f_i^{(j)}}{\sum^{k}_{i=1}w_i(x)} \quad where \quad w_i(x) = \frac{1}{d(x,x_i)^p}\, ,j = 1,...,C$
 
 Interpolation이 끝나게 되면 각 포인트는 $1 \times 1$의 convolution과 비슷한 unit PointNet을 통과하게 되고 이때 skip connection으로 넘어오는 feature와 concatenation하게 된다.
 
