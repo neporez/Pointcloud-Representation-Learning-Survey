@@ -1,4 +1,4 @@
-
+## PointPillars의 특징
 1. range view, bird’s eye view를 사용하는 다른 image projection 방식과 다르게 pillars의 단위로 pseudo-image를 만들어내었다.
 
 2. 모든 포인트 클라우드를 사용하는 것이 아닌, 특정 개수로 한정된 포인트들을 사용하여서 dense한 tensor를 만들어 GPU의 연산효율을 높였다.
