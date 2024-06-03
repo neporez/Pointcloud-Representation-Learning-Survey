@@ -1,3 +1,4 @@
+## FRNet의 특징
 
 1. pointcloud+Image Projection 방식으로 post-processing을 없앴기에 속도가 빠르다.
 
