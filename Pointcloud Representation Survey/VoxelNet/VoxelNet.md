@@ -1,4 +1,4 @@
-
+## VoxelNet의 특징
 1. hand craft representation이 아닌 machine-learned feature representation 방식으로 end-to-end Learning 방식이다.
 
 2. point level의 feature와 voxel level의 feature의 결합을 통해 voxel feature를 생성하여 Conv2D를 사용한다.
