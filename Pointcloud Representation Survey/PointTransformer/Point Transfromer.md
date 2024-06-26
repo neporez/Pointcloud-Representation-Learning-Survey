@@ -63,7 +63,8 @@ Scalr attention, Vector attention 둘 다 set operator이며, 이 operator는 �
 
 본 논문에서 사용되는 point transformer layer는 vector attention을 기반으로 만들어졌다. relation function은 substraction이고, positional encoding $\delta$는 attention vector $\gamma$와 transformed feature $\alpha$(value)에 각각 더해진다.
 
-![[Pasted image 20240625125432.png]]
+![Pasted image 20240625125334](https://github.com/neporez/Pointcloud-Representation-Learning-Survey/assets/88701811/71695f19-6124-4c9a-9b51-5cdffc9f4cd1)
+
 #### $y_i = \sum\limits_{x_j\in\chi(i)}\rho(\gamma(\varphi(x_i)-\psi(x_j)+\delta))\odot(\alpha(x_j)+\delta)$
 
 여기서 subset $\chi(i)\subseteq \chi$은 pointcloud $\chi$의 point인 $x_i$의 local neighborhood이다.(K nearest neighbors)
@@ -81,17 +82,17 @@ position encoding은 self-attention에서 operator에 local structure의 정보�
 
 ### Point Transformer Block
 
-![[Pasted image 20240625135352.png]]
+![Pasted image 20240625135352](https://github.com/neporez/Pointcloud-Representation-Learning-Survey/assets/88701811/a1ca0c23-6bcd-4546-a373-44275831817c)
 
 본 논문에서 point transformer block은 self-attention layer가 포함된 point transformer 앞 뒤로 linear layer를 포함하고 있고, residual connection 또한 포함하고 있다.
 
 ### Network Architecture
 
 
-![[Pasted image 20240626103146.png]]
+![Pasted image 20240626103146](https://github.com/neporez/Pointcloud-Representation-Learning-Survey/assets/88701811/f70504e0-aa11-460d-b348-9caf25b75eea)
 
+![Pasted image 20240626104549](https://github.com/neporez/Pointcloud-Representation-Learning-Survey/assets/88701811/64a9d39f-baad-41bc-97d6-b6d07962c315)
 
-![[Pasted image 20240626104549.png]]
 
 Point Transformer는 point transformer block을 제외하고도 두가지 모듈이 추가적으로 사용되었다.
 
